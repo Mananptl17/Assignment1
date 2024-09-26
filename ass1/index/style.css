@@ -1,0 +1,137 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* body of website*/
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 18px;
+    background-color: rgb(242, 212, 232);
+    width: 100%;
+}
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsl(0, 4%, 5%);
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* logo like in text*/
+header h1 {
+    font-family: "Merienda", sans-serif;
+    font-size: 2.2em;
+    color: hwb(240 99% 0%);
+    margin-left: 20px;
+}
+/*navigation*/
+nav {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    font-size: 1.4em;
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+  
+}
+/*hover for nav*/
+nav a:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+/*body class like lesson  masthead*/
+.body {
+    width: 80%;
+    margin: 0 auto;
+   
+    padding-top: 60px;
+}
+
+.t {
+    text-align: center;
+    padding-top: 5rem;
+}
+/* name of the song*/
+.t h2 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 4em;
+    color: #ff3ad8;
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.7);
+}
+/* class to divide image n lyrics */
+.flex {
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    margin: 4rem auto;
+}
+/* image */
+.flex img {
+    width: 50%;
+    height: 45%; /* Maintain aspect ratio */
+    margin: 30px 0; /* Add margin to the top and bottom */
+}
+/*written lyrics*/
+.lyrics {
+    font-size: 1.5em;
+    font-weight: 150;
+    line-height: 25px;
+    padding: 20px;
+    font-family: "Comfortaa";
+}
+/* for higligiting special words*/
+.lyrics span {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: hsl(0, 100%, 44%);
+    font-size: 2.1em;
+    font-weight: bold;
+    font-family: "Chau Philomene One";
+}
+/* higligthi9ng special lines*/
+.lyrics p {
+    color: hsl(308, 67%, 49%);
+    font-size: 1.7em;
+    font-family: "Merienda";
+    font-weight: 200;
+}
+/*video for web*/
+.vid {
+    text-align: center;
+    padding-top: 2rem;
+    margin: 4rem auto;
+}
+
+.vid video {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+/*footer of web*/
+footer {
+    font-family: "Raleway";
+    background-color: hsl(0, 0%, 3%);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    font-size: 1em;
+    padding: 20px 0px; 
+  
+}
